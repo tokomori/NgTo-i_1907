@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (min-width: 563px){
+    
+}
+@media (min-width: 765px){
+    .col{
+        width: 30%;
+    }
+}
+
+#album img {
+    width: 100%;
+    height: 10rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+#album .item {
+    margin: .25rem;
+    padding: .25rem;
+    border: 4px soild black;
+    border-radius: 15px;
+    overflow: hidden;
+}

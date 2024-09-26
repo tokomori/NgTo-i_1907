@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #ccc;
+    font-size: 16px;
+}
+header{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0, 0.1, 0.5, rgba(0, 0, 0, 0.1) ;
+    background-color: #fff;
+}
+.logo{
+    width: 120px;
+    height: 100%;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.icon{
+    display: flex;
+    
+}
+.icon a{
+    margin-right: 10px;
+    color: black;
+}
+i{
+    font-size: 22px;
+}
+.news   a{
+    margin: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.transition {
+    margin: 50px;
+    background-color: #fff;
+    display: flex;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.container {
+    width: 700px;
+    margin: 10px;
+}
+.left {
+    margin: 10px;
+    
+}
+.left h2 {
+    color: #c4b357;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.imgnew {
+    width: 100%;
+}
+h3 {
+    margin: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #c4b357;
+}
+.right {
+    margin: 10px;
+}
+.right .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right .col img {
+    width: 200px;
+    margin: 10px;
+    transition: 0.3s;
+}
+.right img:hover {
+    width: 210px;
+}
+.right .collum p {
+    font-size: 15px;
+    padding: 20px;
+}
+.right .collum p:first-child {
+    color: rgb(29, 29, 252);
+    font-weight: bold;
+}
+
+footer{
+    background-color: #363636;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+}
+h2{
+    text-transform: uppercase;
+}
+.h5{
+    width: 5rem;
+    content: "";
+    top: 10%;
+    left: 0;
+    border-top: 0.3rem solid #fff;
+}
+h4{
+    transition: margin-left 0.3s ease;
+}
+h4:hover{
+    margin-left: 5px;
+}
