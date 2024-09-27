@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    font-family: "MULI-BOLD";
+    src: url(/fonts/MULI-BOLD.TTF);
+}
+html,body {
+    font-family: "MULI-REGULAR";
+    src: url(/fonts/MULI-REGULAR.TTF);
+}
+html,body {
+    font-family: "MULI-SEMIBOLD";
+    src: url(/fonts/MULI-SEMIBOLD.TTF);
+}
